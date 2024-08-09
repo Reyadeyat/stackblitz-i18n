@@ -27,6 +27,7 @@ import 'zone.js';
     @for (language of world_language_list; track language) {
       <h4>{{language.getCode() + " - " + language.getName() + " - " + language.getDirectionality()}}</h4>
     }
+    
   `,
 })
 export class App {
